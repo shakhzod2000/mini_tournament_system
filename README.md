@@ -108,21 +108,21 @@ Players
 
 ### For local development without Docker:
 
- **Create and activate a virtual environment:**
- ```bash
- python -m venv venv
- source venv/bin/activate  # Linux/MacOS
- # or
- venv\Scripts\activate    # Windows
+1. **Create and activate a virtual environment:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/MacOS
+   # or
+   venv\Scripts\activate    # Windows
 
-**Install dependencies:**
-```bash
-  pip install poetry
-  poetry install
+2. **Install dependencies:**
+   ```bash
+   pip install poetry
+   poetry install
 
-**Run the application:**
-```bash
-  uvicorn app.main:app --reload
+3. **Run the application:**
+   ```bash
+   uvicorn app.main:app --reload
 
 
 ## 📬 Contact
