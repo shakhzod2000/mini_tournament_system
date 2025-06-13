@@ -63,12 +63,13 @@ mini_tournament_system/
    ```bash
    docker-compose exec app alembic upgrade head
 
-_This will create the required **tournaments** and **players** tables._
+_This will create **tournaments** and **players** tables._
 
 
 ## ✅ Run Tests
-``bash
+```bash
 docker-compose exec web pytest
+```
 
 ## 🧪 Tech Stack
 - Python 3.11
