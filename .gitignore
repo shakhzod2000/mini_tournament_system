@@ -182,3 +182,7 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# since i change readme file only in github
+# not to pull readme every time
+README.md
