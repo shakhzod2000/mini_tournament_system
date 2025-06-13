@@ -1,3 +1,9 @@
+[tool.poetry]
+name = "mini_tournament_system"
+version = "0.1.0"
+description = "Mini Tournament System"
+authors = ["Your Name <your.email@example.com>"]
+
 [tool.black]
 line-length = 88
 target-version = ['py311']
