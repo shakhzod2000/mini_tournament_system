@@ -69,7 +69,7 @@ _This will create the required **tournaments** and **players** tables._
 ✅ Run Tests
   ```bash
   docker-compose exec web pytest
-
+---
 
 🧪 Tech Stack
 - Python 3.11
@@ -89,7 +89,7 @@ _This will create the required **tournaments** and **players** tables._
 - Lint & formatting: Black, Ruff, Mypy
 
 - Testing: Pytest
-
+---
 
 API Documentation 📖
 
@@ -111,6 +111,7 @@ Players
     POST /tournaments/{tournament_id}/register - Register a player
 
     GET /tournaments/{tournament_id}/players - List registered players
+---
 
 Development 🖥️
 
@@ -131,7 +132,7 @@ Install dependencies:
 Run the application:
 ```bash
   uvicorn app.main:app --reload
-
+---
 
 📬 Contact
 
