@@ -19,16 +19,16 @@ A lightweight tournament management system built with FastAPI, SQLAlchemy 2.0, a
 ## Project Structure 🗂️
 mini_tournament_system/
 ├── app/
-│   ├── api/            ← FastAPI route definitions
-│   ├── db.py           ← Async + sync SQLAlchemy engines
-│   ├── models/         ← DB table definitions
-│   ├── repositories/   ← Data access layer
-│   ├── schemas/        ← Pydantic models (inputs & outputs)
-│   ├── services/       ← Business logic
-│   ├── config.py       ← Settings loader
-│   └── main.py         ← App entrypoint
-├── alembic/            ← Database migrations
-├── tests/              ← Pytest test files
+│ ├── api/ # FastAPI route definitions
+│ ├── db.py # Async + sync SQLAlchemy engines
+│ ├── models/ # DB table definitions
+│ ├── repositories/ # Data access layer
+│ ├── schemas/ # Pydantic models (inputs & outputs)
+│ ├── services/ # Business logic
+│ ├── config.py # Settings loader
+│ └── main.py # App entrypoint
+├── alembic/ # Database migrations
+├── tests/ # Pytest test files
 ├── docker-compose.yml
 ├── Dockerfile
 ├── pyproject.toml
